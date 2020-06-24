@@ -12,6 +12,7 @@ class _GameBoardState extends State<GameBoard> {
   List<Carta> _cartas = [];
   List<Carta> _cartasValidadas = [];
   int _pontos = 0;
+  
   @override
   void initState() {
     _criarListaCartas();
